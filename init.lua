@@ -24,3 +24,8 @@ end)
 hs.hotkey.bind(hyper, "e", function()
     hs.application.launchOrFocus("Cursor")
 end)
+
+-- f -> finder
+hs.hotkey.bind(hyper, "f", function()
+    hs.application.launchOrFocus("Finder")
+end)
